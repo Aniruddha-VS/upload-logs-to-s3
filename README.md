@@ -13,13 +13,13 @@ How to use it:
 
 2. Upload to your docker repo
 
-   docker push <your-docker-repo>/log-collector:v01
+   docker push \<your-docker-repo\>/log-collector:v01
 
 3. Update the secrets.yaml with your AWS IAM Role access key and Secret Key
 
 4. Update configmap.yaml with your s3 bucket name, s3 region name and Role ARN.
  
-5. Update image in Daemonset.yaml with <your-docker-repo>/log-collector:v01
+5. Update image in Daemonset.yaml with \<your-docker-repo\>/log-collector:v01
 
 6. Apply the files in your kubernetes cluster
 
