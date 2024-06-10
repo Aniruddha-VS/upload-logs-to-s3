@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: bucket-details
+  namespace: logs-collector-ns
+data:
+  # property-like keys; each key maps to a simple value
+  BUCKET_NAME: "xxxxxxx"
+  BUCKET_REGION: "us-east-2"
+  ROLE_ARN: "arn:aws:iam::xxxxxxx:role/s3Fullxxxxx"
+  
