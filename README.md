@@ -9,7 +9,7 @@ How to use it:
 
 1. Build the docker image
    
-  docker build <your-docker-repo>/log-collector:v01 .
+  docker build \<your-docker-repo\>/log-collector:v01 .
 
 2. Upload to your docker repo
 
